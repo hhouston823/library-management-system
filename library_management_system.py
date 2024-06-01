@@ -1,3 +1,5 @@
+from database import connect_to_database
+
 import re
 from book import Book, FictionBook, NonFictionBook
 from user import User
